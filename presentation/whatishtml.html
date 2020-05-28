@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="syntax.css" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bd30e81abc.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="head-content">
+        <h1>HTML คืออะไร? </h1>
+    </div>
+    <div class="container">
+        <div class="content">
+            <p>HTML คือ ภาษาหลักที่ใช้ในการเขียนเว็บเพจ โดยใช้ Tag ในการกำหนดการแสดงผล HTML ย่อมาจากคำว่า Hypertext Markup Language โดย Hypertext หมายถึง ข้อความที่เชื่อมต่อกันผ่านลิ้ง (Hyperlink) Markup language หมายถึงภาษาที่ใช้ Tag ในการกำหนดการแสดงผลสิ่งต่างๆที่แสดงอยู่บนเว็บเพจ</p>
+            <p class="">ที่มา - <a href="http://www.codingbasic.com/html.html">http://www.codingbasic.com/html.html</a></p>
+            <div class="clear-class"></div>
+
+            <h1>HTML Basic Examples</h1>
+
+            <h2>HTML Documents</h2>
+            <p>เอกสาร HTML ทั้งหมดจะต้องเริ่มต้นด้วยการประกาศประเภทเอกสาร: <code class="w3-codespan">&lt;!DOCTYPE html&gt;</code>.</p>
+            <p>เอกสาร HTML นั้นเริ่มต้นด้วย <code class="w3-codespan"></code> และปิดท้ายด้วย <code class="w3-codespan">&lt;/html&gt;</code>.</p>
+            <p>ส่วนที่มองเห็นได้ของเอกสาร HTML อยู่ระหว่าง <code class="w3-codespan">&lt;body&gt;</code> และ <code class="w3-codespan">&lt;/body&gt;</code>. </p>
+
+            <div class="html-high">
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span><br><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span>My First Heading<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>My first paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span><br><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+            </div>
+
+            <a href="example/example1.html">ตัวอย่าง</a>
+            <div class="clear-class"></div>
+
+            <div class="clear-class"></div>
+            <h2>HTML Links</h2>
+            <p>ลิงค์ HTML ถูกกำหนดด้วย Tag <code class="w3-codespan">&lt;a&gt;</code></p>
+            <div class="html-high">
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>a<span class="attributecolor" style="color:red"> href<span class="attributevaluecolor" style="color:mediumblue">="https://www.lipsum.com/"</span>                <span class="attributecolor" style="color:red"> target<span class="attributevaluecolor" style="color:mediumblue">="blank"</span></span>
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span>This is a link<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/a<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+            </div>
+            <a href="example/example2.html">ตัวอย่าง</a>
+            <div class="clear-class"></div>
+
+
+            <h2>HTML Images</h2>
+            <p>รูปภาพถูกกำหนดด้วย Tag <code class="w3-codespan">&lt;img&gt;</code></p>
+            <p>โดยประกอบไปด้วย attributes source file (<code class="w3-codespan">src</code>), ข้อความอธิบายรูปภาพ (<code class="w3-codespan">alt</code>),
+                <code class="w3-codespan">width</code>, <code class="w3-codespan">height</code> </p>
+            <div class="html-high">
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>img<span class="attributecolor" style="color:red"> src<span class="attributevaluecolor" style="color:mediumblue">="https://api.adorable.io/avatars/285/2.png"</span>                alt<span class="attributevaluecolor" style="color:mediumblue">="รูปภาพ Avatar"</span> width<span class="attributevaluecolor" style="color:mediumblue">="104"</span> height<span class="attributevaluecolor" style="color:mediumblue">="142"</span></span>
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span>
+            </div>
+            <a href="example/example3.html">ตัวอย่าง</a>
+            <div class="clear-class"></div>
+
+            <h2>HTML Buttons</h2>
+            <p>ปุ่มถูกกำหนดด้วย Tag <code class="w3-codespan">&lt;button&gt;</code></p>
+            <div class="html-high">
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>button<span class="tagcolor" style="color:mediumblue">&gt;</span></span>Click me<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/button
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span>
+            </div>
+            <a href="example/example4.html">ตัวอย่าง</a>
+            <div class="clear-class"></div>
+
+            <h2>HTML <span class="color_h1">&lt;div&gt;</span> Tag</h2>
+            <p>div คือ แท็กประเภทนึงของ html ใช้สำหรับครอบวัตถุที่เราต้องการ เพื่อจัดรูปแบบต่างๆ ให้กับวัตถุในตำแหน่งนั้นๆ สามารถใส่ค่าไปตรงๆ ใน div นั้น หรือ ใส่ id กับ class เพื่อใช้อ้างอิงกับการจัด CSS ได้ตามความเหมาะสม โดยใช้ Tag <code class="w3-codespan">&lt;div&gt;</code></p>
+            <div class="html-high">
+                <span class="tagnamecolor" style="color:brown">
+                  <span class="tagcolor" style="color:mediumblue">&lt;</span>div
+                <span class="attributecolor" style="color:red"> class
+                    <span class="attributevaluecolor" style="color:mediumblue">="myDiv"</span>
+                </span>
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span><br>&nbsp;
+                <span class="tagnamecolor" style="color:brown">
+                  <span class="tagcolor" style="color:mediumblue">&lt;</span>h2
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span>This is a heading in a div element
+                <span class="tagnamecolor" style="color:brown">
+                  <span class="tagcolor" style="color:mediumblue">&lt;</span>/h2
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span>
+                <br>&nbsp;
+                <span class="tagnamecolor" style="color:brown">
+                  <span class="tagcolor" style="color:mediumblue">&lt;</span>p
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span>This is some text in a div element.
+                <span class="tagnamecolor" style="color:brown">
+                  <span class="tagcolor" style="color:mediumblue">&lt;</span>/p
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span><br>
+                <span class="tagnamecolor" style="color:brown">
+                  <span class="tagcolor" style="color:mediumblue">&lt;</span>/div
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span>
+            </div>
+            <a href="example/example5.html">ตัวอย่าง</a>
+
+
+
+
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div>
+                <div>
+                    <p class="text-center uppercase">Nuttaya Chutibuat</p>
+                    <div class="d-flex justify-content-center social">
+                        <a class="" href="facebook.com/Neme.NCz"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://medium.com/@netty.cuh"><i class="fab fa-medium"></i></a>
+                        <a class="" href="https://github.com/chutibuat"><i class="fab fa-github-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/bd30e81abc.js" crossorigin="anonymous"></script>
+    </footer>
+</body>
+
+</html>
