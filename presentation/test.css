@@ -1,0 +1,32 @@
+.header {
+    color: white;
+    text-align: center;
+}
+
+#paragraph {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.image {
+    /* margin-top: 50px; */
+    /* margin: 10px 30px 50px 100px; */
+    /*         T  R    B    L */
+    margin: 100px 50px;
+    width: 300px;
+}
+
+.text {
+    border: red solid 1px;
+    padding: 50px;
+    text-align: justify;
+}
+
+.text-2 {
+    border: red solid 1px;
+    margin: 50px;
+    margin: 100px;
+    margin: 150px;
+    margin: 250px;
+    margin-top: -40px;
+}
